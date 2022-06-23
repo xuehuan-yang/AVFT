@@ -1,7 +1,7 @@
 ### Autonomous Vehicle Fidelity Testing
 
 ```bash
-Research shows that the autonomous vehicles have to driven billions of miles to demonstrate their liabilty. 
+Research shows that the autonomous vehicles have to driven billions of miles to demonstrate liabilty. 
 
 Testing autonomous driving algorithms on real vehicles is extremely costly.
 
