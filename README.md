@@ -24,7 +24,6 @@ AVSW-->|rostopic Throttle, Steering and Brake|AVFT
 ```bash
 # configure
 map: ntucetran.xodr
-map: ntufull.xodr
 ```
 
 ```bash
