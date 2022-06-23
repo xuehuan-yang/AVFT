@@ -1,19 +1,5 @@
 ### Autonomous Vehicle Fidelity Testing
 
-```bash
-Research shows that the autonomous vehicles have to driven billions of miles to demonstrate liabilty. 
-
-Testing autonomous driving algorithms on real vehicles is extremely costly.
-
-Many researches and developers perform fidelity testing with correspoinding sensors and maps.
-```
-
-```bash
-# env
-carla 0.9.13
-```
-
-### sequence diagram
 ```mermaid
 graph LR;
 AVFT-->|map generate pcd file|AVSW
@@ -22,6 +8,9 @@ AVSW-->|rostopic Throttle, Steering and Brake|AVFT
 ```
 
 ```bash
+# env
+carla 0.9.13
+
 # configure
 map: ntucetran.xodr
 ```
