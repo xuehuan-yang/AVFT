@@ -17,8 +17,8 @@ carla 0.9.13
 ```mermaid
 graph LR;
 AVFT-->|map generate pcd file|AVSW
-AVFT-->|real time pcd, image, speed & heading|AVSW
-AVSW-->|rostopic Throttle, Steering, Brake|AVFT        
+AVFT-->|real time pcd, image, speed and heading|AVSW
+AVSW-->|rostopic Throttle, Steering and Brake|AVFT        
 ```
 
 ```bash
