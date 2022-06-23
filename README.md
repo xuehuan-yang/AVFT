@@ -14,6 +14,12 @@ carla 0.9.13
 ```
 
 ```bash
+# configure
+map: ntucetran.xodr
+map: ntufull.xodr
+```
+
+```bash
 # view ubuntu
 Files -> ~/doc/AVFT.html -> Right Click -> Open With FireFox Web Browser
 # voew windows
