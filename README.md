@@ -29,7 +29,7 @@ map: ntufull.xodr
 
 ```bash
 # view ubuntu
-Files -> ~/doc/AVFT.html -> Right Click -> Open With FireFox Web Browser
+Files -> ~/doc/AVFT.html -> Right Click Mouse-> Open With FireFox Web Browser
 # voew windows
-File Exploter -> ~/doc/AVFT.html -> Right Click -> Open with Goolge Chrome
+File Exploter -> ~/doc/AVFT.html -> Right Click Mouse -> Open with Goolge Chrome
 ```
