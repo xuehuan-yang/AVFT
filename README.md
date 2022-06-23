@@ -1,14 +1,19 @@
+### Autonomous Vehicle Fidelity Testing
+
 ```bash
-Insertion of real maps and perception behaviors for autonomous driving in Carla simulator
+Autonomous vehicles have been progree in the past years. Research shows that the autonomous vehicles have to driven billions of miles to demonstrate their liabilty. 
+
+Testing autonomous driving algorithms on real vehicles is extremely costly and many researches and developers in the field cannot afford a real car and the ecorrespoindng sensors. 
 ```
 
 ```bash
-The role of simulation in autonomous driving is becoming vital due to the need for rapid testing and massive scenarios. 
+# env
+carla 0.9.13
 ```
 
 ```bash
 # view ubuntu
-Files -> ~/doc/cto.html -> Right Click -> Open With FireFox Web Browser
+Files -> ~/doc/AVFT.html -> Right Click -> Open With FireFox Web Browser
 # voew windows
-File Exploter -> ~/doc/cto.html -> Right Click -> Open with Goolge Chrome
+File Exploter -> ~/doc/AVFT.html -> Right Click -> Open with Goolge Chrome
 ```
