@@ -13,14 +13,13 @@ Many researches and developers perform fidelity testing with correspoinding sens
 carla 0.9.13
 ```
 
+### sequence diagram
 ```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
+graph LR;
+AVFT-->|map generate pcd file|AVSW
+AVFT-->|real time pcd, image, speed & heading|AVSW
+AVSW-->|rostopic Throttle, Steering, Brake|AVFT        
 ```
-
 
 ```bash
 # configure
