@@ -13,13 +13,6 @@ Many researches and developers perform fidelity testing with correspoinding sens
 carla 0.9.13
 ```
 
-```mermaid
-  graph TD;
-      A-->B;
-      A-->C;
-      B-->D;
-      C-->D;
-```
 
 ```bash
 # configure
