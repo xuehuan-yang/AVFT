@@ -9,10 +9,11 @@ AVSW-->|rostopic Throttle, Steering and Brake|AVFT
 
 ```bash
 # env
-carla 0.9.13
-
-# configure
-map: ntucetran.xodr
+OS:   Ubuntu 18.04 
+ROS:  Melodic
+Carla Server: 0.9.12
+Carla Client: 0.9.12
+Map: OpenDriver Map Format with NTU Cetran
 ```
 
 ```bash
@@ -21,4 +22,19 @@ git clone git@github.com:xuehuan-yang/AVFT.git
 Files -> ~/doc/AVFT.html -> Right Click Mouse-> Open With FireFox Web Browser
 # voew windows
 File Exploter -> ~/doc/AVFT.html -> Right Click Mouse -> Open with Goolge Chrome
+```
+
+```bash
+# msg rostopic input
+
+lidar: /carla/ego_vehicle/lidar
+camera: /carla/ego_vehicle/rgb_front/image
+odometry: /carla/ego_vehicle/odometry
+
+# msg rostopic output
+control: /carla/ego_vehicle/vehicle_control_cmd
+
+rostopic pub /carla/ego_vehicle/vehicle_control_cmd carla_msgs/CarlaEgoVehicleControl "{throttle: 0.3}"
+rostopic pub /carla/ego_vehicle/vehicle_control_cmd carla_msgs/CarlaEgoVehicleControl "{steer: 0.1}"
+rostopic pub /carla/ego_vehicle/vehicle_control_cmd carla_msgs/CarlaEgoVehicleControl "{brake: 0.5}"
 ```
