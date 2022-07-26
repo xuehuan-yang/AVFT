@@ -17,14 +17,6 @@ Map: OpenDriver Map Format with NTU Cetran
 ```
 
 ```bash
-git clone git@github.com:xuehuan-yang/AVFT.git
-# view ubuntu
-Files -> ~/doc/AVFT.html -> Right Click Mouse-> Open With FireFox Web Browser
-# voew windows
-File Exploter -> ~/doc/AVFT.html -> Right Click Mouse -> Open with Goolge Chrome
-```
-
-```bash
 # msg rostopic input
 
 lidar: /carla/ego_vehicle/lidar
