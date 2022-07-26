@@ -4,16 +4,16 @@
 graph LR;
 AVFT-->|map generate pcd file|AVSW
 AVFT-->|real time pcd, image, speed and heading|AVSW
-AVSW-->|rostopic Throttle, Steering and Brake|AVFT        
+AVSW-->|roscommand Throttle, Steering and Brake|AVFT        
 ```
 
 ```bash
 # env
 OS:   Ubuntu 18.04 
-ROS:  Melodic
+ROS version:  melodic
 Carla Server: 0.9.12
 Carla Client: 0.9.12
-Map: OpenDriver Map Format with NTU Cetran
+Map: OpenDriver Format
 ```
 
 ```bash
