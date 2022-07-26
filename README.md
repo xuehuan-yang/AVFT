@@ -18,7 +18,6 @@ Map: OpenDriver Map Format with NTU Cetran
 
 ```bash
 # msg rostopic input
-
 lidar: /carla/ego_vehicle/lidar
 camera: /carla/ego_vehicle/rgb_front/image
 odometry: /carla/ego_vehicle/odometry
